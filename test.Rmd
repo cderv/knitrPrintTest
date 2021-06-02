@@ -1,0 +1,15 @@
+
+```{r}
+library(knitPrintTest)
+hello() #calls print.my_foo, nothing visible
+```
+
+
+```{r}
+print(hello()) #Output visible
+```
+
+```{r}
+knitr::knit_print(hello()) #Output visible
+```
+
